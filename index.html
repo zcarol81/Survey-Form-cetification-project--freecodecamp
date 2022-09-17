@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html5>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+ <body>
+    
+ </body>
+    <header>
+        <h1 id="title">How much did you know about Harry Potter?</h1>
+        <p id="description">Test your knowledge and become part of our community</p>
+    
+    </header>
+
+
+    <main>
+        <form id="survey-form">
+            <div class="datos">
+                <label id="name-label">Name:
+                <input id="name" 
+                type="text" 
+                required 
+                placeholder="Enter your name"> </label>
+
+                <label>Email: </email>
+                <input id="email-label" type="email"required placeholder="Enter your e-mail"></label>
+
+                <label id="number-label">Age: 
+                <input id="number"type="number"required placeholder="Age" min="10" max="99"></label>
+            </div>
+         
+
+    
+        <fieldset>     
+            <legend>How did you meet Harry Potter?</legend>
+                 <select id="dropdown" required>
+                    <option>Movie</option>
+                    <option>Book</option>
+                    <option>Recommended by friends</option>
+                    <option>Social Media</option>
+                    <option>Other</option>
+                 </select>
+        </fieldset>
+      
+  
+        <div>
+            <p>What is the name of the firts book of Harry Potter?</p>
+                <label>
+                <input name="book" value="book"type="radio">Harry Potter and the Philosopher's Stone</label>
+            
+                <label>
+                <input name="book" value="book"type="radio">Harry Potter and the Chamber of Secrets</label>
+            
+                <label>
+                <input name="book" value="book" type="radio">Harry Potter and the half blood Prince</label>
+
+        </div>
+        <img  class="imagen-libro" src="img/shayna-douglas--EwOTtOcReM-unsplash.jpg" alt="Imagen de libro y lentes de Harry Potter">
+        <div>
+            <p>Which of these are a character in the saga?<p>
+                <label>
+                <input type="checkbox" name="character"value="ron"class="input-checkbox">Ron</label>
+                
+                <label>
+                <input type="checkbox" name="character"value="mrs-norris" class="input-checkbox">Mrs Norris</label>
+                
+                <label>
+                <input type="checkbox" name="character" value="hermione" class="input-checkbox">Hermione</label>
+                
+                <label>
+                <input type="checkbox"name="character"value="newton-scamander"class="input-checkbox">Newton Scamander</label>
+                
+                <label>
+                <input type="checkbox" name="character" value="bellatrix-lestrange" class="input-checkbox">Bellatrix Lestrange</label>
+                
+                <label>
+                <input type="checkbox" name="character" value="grindelwald" class="input-checkbox">Grindelwald</label>
+                
+                <label>
+                <input type="checkbox"name="character" value="voldemort" class="input-checkbox">Voldemort</label>
+                
+                <label>
+                <input type="checkbox"name="character" value="severus-snape" class="input-checkbox">Severus Snape</label>
+                 
+                <label>
+                <input type="checkbox" name="character" value="credence" class="input-checkbox">Credence</label>
+                
+                <label>
+                <input type="checkbox" name="character" value="jacob-kowalsky" class="input-checkbox">Jacob Kowalsky</label>
+                
+                <label>
+                <input type="checkbox" name="character" value="leta-lestrange" class="input-checkbox">Leta Lestrange</label>
+                
+                <label>
+                <input type="checkbox" name="character" value="filch" class="input-checkbox">Filch</label>
+        
+                <label>
+                <input type="checkbox" name="character" value="tom-riddle" class="input-checkbox">Tom Riddle</label>
+                
+                
+        </div>
+        <div >
+            <label for=""><input type="checkbox" checked>Would you like to receive notifications from our community?</label>
+            <p>What are your favorite book or movie of Harry Potter?</p>
+            
+                <textarea name="" id="mensaje" cols="70" rows="10" class="input-padron" required></textarea>
+        <div>
+            <button type="submit" id="submit" class="submit-button">Submit</button>
+        </div>
+    </form>
+    </main>
+    
+    
+
+
+    
+
+  </body>
