@@ -1,1 +1,1 @@
-# Survey-Form-cetification-project--freecodecamp
+# Survey-Form-certification-project--freecodecamp
